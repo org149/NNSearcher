@@ -1,0 +1,7 @@
+require 'NNSearcher'
+=> true
+s=NNSearcher.new [["idd",12,12],["iqq",20,20],["qqq",40,40]]
+=> #<NNSearcher:0xb7585d38>
+s.nearest_neighbour 16,17
+=> "iqq"
+
